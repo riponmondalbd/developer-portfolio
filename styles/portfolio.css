@@ -149,3 +149,8 @@ main {
     font-weight: 700;
     margin: 0;
 }
+
+/* what i do section start */
+#what-i-do-description {
+    padding: 30px 140px;
+}
