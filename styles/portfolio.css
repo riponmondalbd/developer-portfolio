@@ -223,11 +223,17 @@ main {
 
 /* footer styles */
 footer {
-    display: flex;
-    gap: 100px;
     background-color: #FFF8F3;
     margin-top: 100px;
-    padding: 130px 230px;
+    padding-top: 100px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 100px;
+    max-width: 1140px;
+    margin: 0 auto;
+
 }
 
 .footer-column {
@@ -240,6 +246,15 @@ footer {
 
 .footer-column>h3 {
     text-align: left;
+    margin-bottom: 20px;
+}
+
+.footer-column>p {
+    margin-top: 0px;
+    text-align: left;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .contact input[type="text"],
